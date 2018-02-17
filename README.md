@@ -1,2 +1,2 @@
 # Ontology
-An ontology for integrating citizen science datasets
+The Design and Prototyping of an Ontology for Integrating Citizen Science Datasets.
