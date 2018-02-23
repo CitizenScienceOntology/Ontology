@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="http://human.owl" uri="Human/human.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="http://id.loc.gov/ontologies/bibframe/" uri="Bibframe/bibframe.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="http://mouse.owl" uri="Human/mouse.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="http://purl.obolibrary.org/obo/bspo.owl" uri="Spatial%20Ontologies/bspo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="http://purl.obolibrary.org/obo/peco.owl" uri="Plant_conditions/Plant.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="duplicate:http://purl.obolibrary.org/obo/po.owl" uri="plant-ontology-master/plant-ontology.obo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="duplicate:http://purl.obolibrary.org/obo/po.owl" uri="plant-ontology-master/po.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl" uri="plant-ontology-master/imports/ncbitaxon_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="http://purl.obolibrary.org/obo/po/imports/ro_import.owl" uri="plant-ontology-master/imports/ro_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="http://purl.obolibrary.org/obo/sibo.owl" uri="Insect%20Ontology/sibo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85" uri="Collected%20Ontologies/Bird%20List.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="https://www.auto.tuwien.ac.at/downloads/thinkhome/ontology/WeatherOntology.owl" uri="Weather/WeatherOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1512636968022" name="shadowed:http://purl.obolibrary.org/obo/po.owl" uri="plant-ontology-master/po-release-%2321-Oct-2015/plant-ontology-21.owl"/>
+    </group>
+</catalog>
