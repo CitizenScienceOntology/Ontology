@@ -1,0 +1,493 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY Phylums "http://example.org/data/Phylums.csv#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#"
+     xml:base="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Phylums="http://example.org/data/Phylums.csv#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/data/Phylums.csv#Phylum -->
+
+    <owl:AnnotationProperty rdf:about="&Phylums;Phylum"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_210152df_49f1_4165_8840_d6c1ac2926c5 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#OWLClass_210152df_49f1_4165_8840_d6c1ac2926c5">
+        <rdfs:label>Phylum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_14b7f4c4_f25d_49f4_8f41_d9e963f39899 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_14b7f4c4_f25d_49f4_8f41_d9e963f39899">
+        <rdfs:label>Protoctista</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_6b6b49dc_0f2e_4403_8ce7_abf342b376b2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_6b6b49dc_0f2e_4403_8ce7_abf342b376b2">
+        <rdfs:label>Animaia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_93d79bb8_ef44_48a0_9cd5_a7375a0c3801 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_93d79bb8_ef44_48a0_9cd5_a7375a0c3801">
+        <rdfs:label>Prokaryotae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_bd4eec80_ef47_4a72_b042_097c7734f944 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_bd4eec80_ef47_4a72_b042_097c7734f944">
+        <rdfs:label>Fungi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_c1c86f57_c9fa_44bb_8a86_91dfad9a6e75 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLClass_c1c86f57_c9fa_44bb_8a86_91dfad9a6e75">
+        <rdfs:label>Plantae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_0c61b44c_827e_4949_baf1_58e800ba6d3b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_0c61b44c_827e_4949_baf1_58e800ba6d3b">
+        <rdfs:label>Anser anser</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_73f6ce58_1670_4c8c_921c_c8f480353b8c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_0d5ac392_7438_4688_b6de_33c1a3b9847a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_0d5ac392_7438_4688_b6de_33c1a3b9847a">
+        <rdfs:label>Struthio camelus</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_f68a3bce_5be5_4774_88fd_c8bda861c9b0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_16639dc8_e8db_405e_bd04_f5f1777b35c6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_16639dc8_e8db_405e_bd04_f5f1777b35c6">
+        <rdfs:label>Raja Shelduck</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_40deaa67_a8cb_44e7_a686_b43319cac605"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_16cef72b_9756_40e9_b02f_6b2227d5428a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_16cef72b_9756_40e9_b02f_6b2227d5428a">
+        <rdfs:label>Tadorna tadornoides</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_cf5b8f5d_6d98_4d38_860e_d513c01244b7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_2c727845_de5b_45c4_a1cf_88c33096e89f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_2c727845_de5b_45c4_a1cf_88c33096e89f">
+        <rdfs:label>Freckled Duck</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_b2ef5b02_6fe0_40b9_b7a0_d360e42e8ddf"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_342a3a3c_61d3_4502_8d61_ea3b93b95c77 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_342a3a3c_61d3_4502_8d61_ea3b93b95c77">
+        <rdfs:label>Dendrocygna eytoni</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_c3d90d09_3bbb_49aa_91ce_5da1647cf9b1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_3d57b20d_1c58_4e80_8e02_ead4cd700d47 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_3d57b20d_1c58_4e80_8e02_ead4cd700d47">
+        <rdfs:label>Casuarius casuarius</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_ba59668f_224c_40dc_8738_6cbb924825c4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_40deaa67_a8cb_44e7_a686_b43319cac605 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_40deaa67_a8cb_44e7_a686_b43319cac605">
+        <rdfs:label>Tadorna radjah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_576b1982_4dae_4265_acf3_38035b5ab98a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_576b1982_4dae_4265_acf3_38035b5ab98a">
+        <rdfs:label>Cygnus atratus</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_e16462ca_8c1b_40f1_8277_3899b61bbea2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_66a8f3b3_0919_458d_b306_e7f581968ede -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_66a8f3b3_0919_458d_b306_e7f581968ede">
+        <rdfs:label>Dendrocygna arcuata</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_966c5e65_1073_40a7_8978_a5ab74e0a9dd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_73f6ce58_1670_4c8c_921c_c8f480353b8c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_73f6ce58_1670_4c8c_921c_c8f480353b8c">
+        <rdfs:label>Greylag Goose</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_774e593a_bb9e_46f9_a37b_4107a461a7b7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_774e593a_bb9e_46f9_a37b_4107a461a7b7">
+        <rdfs:label>Dendrocygna guttata</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_953c27b0_947b_4cc5_ae54_9800470c0739"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_7ca1b992_2f07_458b_aea9_f3cc7d0572fc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_7ca1b992_2f07_458b_aea9_f3cc7d0572fc">
+        <rdfs:label>Cape Barren Goose</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_f62a76e3_5d01_4ffc_901c_bf9b38b8fb53"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_953c27b0_947b_4cc5_ae54_9800470c0739 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_953c27b0_947b_4cc5_ae54_9800470c0739">
+        <rdfs:label>Spotted Whistling Duck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_966c5e65_1073_40a7_8978_a5ab74e0a9dd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_966c5e65_1073_40a7_8978_a5ab74e0a9dd">
+        <rdfs:label>Wandering Whistling Duck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_9c28ce4b_2740_4a36_a11c_6236ac38d840 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_9c28ce4b_2740_4a36_a11c_6236ac38d840">
+        <rdfs:label>Dromaius novaehollandiae</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_c402fb80_c6c8_4bc1_96e2_88a06e5568d9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_b2ef5b02_6fe0_40b9_b7a0_d360e42e8ddf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_b2ef5b02_6fe0_40b9_b7a0_d360e42e8ddf">
+        <rdfs:label>Stictonetta naevosa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_b67e1409_c5bd_4d7f_976c_a0150a74d8b8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_b67e1409_c5bd_4d7f_976c_a0150a74d8b8">
+        <rdfs:label>Branta canadensis</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_ba3f1959_b626_4b74_9bfe_a6deef975529"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_ba3f1959_b626_4b74_9bfe_a6deef975529 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_ba3f1959_b626_4b74_9bfe_a6deef975529">
+        <rdfs:label>Canada Goose</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_ba59668f_224c_40dc_8738_6cbb924825c4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_ba59668f_224c_40dc_8738_6cbb924825c4">
+        <rdfs:label>Southern Cassowary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_c3d90d09_3bbb_49aa_91ce_5da1647cf9b1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_c3d90d09_3bbb_49aa_91ce_5da1647cf9b1">
+        <rdfs:label>Plumed Whistling Duck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_c402fb80_c6c8_4bc1_96e2_88a06e5568d9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_c402fb80_c6c8_4bc1_96e2_88a06e5568d9">
+        <rdfs:label>Emu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_cf5b8f5d_6d98_4d38_860e_d513c01244b7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_cf5b8f5d_6d98_4d38_860e_d513c01244b7">
+        <rdfs:label>Australian Shelduck</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_d90e02b2_a680_4e83_9dc8_3046bc1ecab8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_d90e02b2_a680_4e83_9dc8_3046bc1ecab8">
+        <rdfs:label>Magpie Goose</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_f04d0296_462e_462e_a79d_4294331a6493"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_e16462ca_8c1b_40f1_8277_3899b61bbea2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_e16462ca_8c1b_40f1_8277_3899b61bbea2">
+        <rdfs:label>Black Swan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_e72b1ddb_573b_41bb_9b4c_bd9d7d873e9d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_e72b1ddb_573b_41bb_9b4c_bd9d7d873e9d">
+        <rdfs:label>Cygnus olor</rdfs:label>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_fd372f3d_bff5_4d38_9d40_7df27d92696b"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_f04d0296_462e_462e_a79d_4294331a6493 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_f04d0296_462e_462e_a79d_4294331a6493">
+        <rdfs:label>Anseranas semipalmata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_f62a76e3_5d01_4ffc_901c_bf9b38b8fb53 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_f62a76e3_5d01_4ffc_901c_bf9b38b8fb53">
+        <rdfs:label>Cereopsis novaehollandiae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_f68a3bce_5be5_4774_88fd_c8bda861c9b0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_f68a3bce_5be5_4774_88fd_c8bda861c9b0">
+        <rdfs:label>Common Ostrich</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_fd372f3d_bff5_4d38_9d40_7df27d92696b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yawfrimpong/ontologies/2017/10/untitled-ontology-85#OWLNamedIndividual_fd372f3d_bff5_4d38_9d40_7df27d92696b">
+        <rdfs:label>Mute Swan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&Phylums;row=19">
+        <Phylums:Phylum xml:lang="en-gb">Loricifera</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=8">
+        <Phylums:Phylum xml:lang="en-gb">Chordata</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=18">
+        <Phylums:Phylum xml:lang="en-gb">Kinorhyncha</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=17">
+        <Phylums:Phylum xml:lang="en-gb">Hemichordata</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=9">
+        <Phylums:Phylum xml:lang="en-gb">Cnidaria</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=6">
+        <Phylums:Phylum xml:lang="en-gb">Bryozoa</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=7">
+        <Phylums:Phylum xml:lang="en-gb">Chaetognatha</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=4">
+        <Phylums:Phylum xml:lang="en-gb">Arthropoda</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=5">
+        <Phylums:Phylum xml:lang="en-gb">Brachiopoda</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=12">
+        <Phylums:Phylum xml:lang="en-gb">Echinodermata</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=11">
+        <Phylums:Phylum xml:lang="en-gb">Cycliophora</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=10">
+        <Phylums:Phylum xml:lang="en-gb">Ctenophora</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=16">
+        <Phylums:Phylum xml:lang="en-gb">Gnathostomulida</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=15">
+        <Phylums:Phylum xml:lang="en-gb">Gastrotricha</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=14">
+        <Phylums:Phylum xml:lang="en-gb">Entoprocta</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=13">
+        <Phylums:Phylum xml:lang="en-gb">Echiura</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=35">
+        <Phylums:Phylum xml:lang="en-gb">Rotifera</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=36">
+        <Phylums:Phylum xml:lang="en-gb">Sipuncula</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=37">
+        <Phylums:Phylum xml:lang="en-gb">Tardigrada</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=38">
+        <Phylums:Phylum xml:lang="en-gb">Xenoturbellida</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=31">
+        <Phylums:Phylum xml:lang="en-gb">Platyhelminthes</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=32">
+        <Phylums:Phylum xml:lang="en-gb">Porifera</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=33">
+        <Phylums:Phylum xml:lang="en-gb">Priapulida</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=34">
+        <Phylums:Phylum xml:lang="en-gb">Rhombozoa</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=3">
+        <Phylums:Phylum xml:lang="en-gb">Annelida</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=2">
+        <Phylums:Phylum xml:lang="en-gb">Acoelomorpha</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=1">
+        <Phylums:Phylum xml:lang="en-gb">Acanthocephala</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=29">
+        <Phylums:Phylum xml:lang="en-gb">Phoronida</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=28">
+        <Phylums:Phylum xml:lang="en-gb">Orthonectida</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=21">
+        <Phylums:Phylum xml:lang="en-gb">Micrognathozoa</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=20">
+        <Phylums:Phylum xml:lang="en-gb">Mesozoa</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=23">
+        <Phylums:Phylum xml:lang="en-gb">Myxozoa</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=22">
+        <Phylums:Phylum xml:lang="en-gb">Mollusca</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=25">
+        <Phylums:Phylum xml:lang="en-gb">Nematomorpha</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=24">
+        <Phylums:Phylum xml:lang="en-gb">Nematoda</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=27">
+        <Phylums:Phylum xml:lang="en-gb">Onychophora</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=26">
+        <Phylums:Phylum xml:lang="en-gb">Nemertea</Phylums:Phylum>
+    </rdf:Description>
+    <rdf:Description rdf:about="&Phylums;row=30">
+        <Phylums:Phylum xml:lang="en-gb">Placozoa</Phylums:Phylum>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
