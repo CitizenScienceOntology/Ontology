@@ -1,0 +1,591 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.opengis.net/gml/"
+     xml:base="http://www.opengis.net/gml/"
+     xmlns:geo="http://www.georss.org/georss/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:gml="http://www.opengis.net/gml/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:geo2003="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:karma_geospatial="http://isi.edu/integration/karma/ontologies/model/current#geospatial/">
+    <owl:Ontology rdf:about="http://www.opengis.net/gml/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.georss.org/georss/where -->
+
+    <owl:ObjectProperty rdf:about="http://www.georss.org/georss/where">
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/gml/_Geometry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLObjectProperty_14cfb6eb_1931_4ae1_b915_1e00ecd5cbe9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/gml/OWLObjectProperty_14cfb6eb_1931_4ae1_b915_1e00ecd5cbe9">
+        <rdfs:label>HasFeature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLObjectProperty_667196f7_b72a_4d70_89c1_d02f06369824 -->
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/gml/OWLObjectProperty_667196f7_b72a_4d70_89c1_d02f06369824">
+        <rdfs:label>EatenBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLObjectProperty_6f8b655f_9ee1_4b0f_9dc9_d5a40b658101 -->
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/gml/OWLObjectProperty_6f8b655f_9ee1_4b0f_9dc9_d5a40b658101">
+        <rdfs:label>Eat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLObjectProperty_706ee038_6465_4beb_a5ea_57a4ddec3509 -->
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/gml/OWLObjectProperty_706ee038_6465_4beb_a5ea_57a4ddec3509">
+        <rdfs:label>Has</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/exterior -->
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/gml/exterior">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/Polygon"/>
+        <rdfs:range rdf:resource="http://www.opengis.net/gml/LinearRing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://isi.edu/integration/karma/ontologies/model/current#geospatial/hasKMLCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://isi.edu/integration/karma/ontologies/model/current#geospatial/hasKMLCategory">
+        <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#geospatial/KMLCustomization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://isi.edu/integration/karma/ontologies/model/current#geospatial/hasKMLLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://isi.edu/integration/karma/ontologies/model/current#geospatial/hasKMLLabel">
+        <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#geospatial/KMLCustomization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://isi.edu/integration/karma/ontologies/model/current#geospatial/hasSRID -->
+
+    <owl:DatatypeProperty rdf:about="http://isi.edu/integration/karma/ontologies/model/current#geospatial/hasSRID">
+        <rdfs:domain rdf:resource="http://isi.edu/integration/karma/ontologies/model/current#geospatial/SpatialReferenceSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.georss.org/georss/box -->
+
+    <owl:DatatypeProperty rdf:about="http://www.georss.org/georss/box">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>From the GeoRSS Simple vocabulary</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.georss.org/georss/elev -->
+
+    <owl:DatatypeProperty rdf:about="http://www.georss.org/georss/elev">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>From the GeoRSS Simple vocabulary</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.georss.org/georss/floor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.georss.org/georss/floor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment>From the GeoRSS Simple vocabulary</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.georss.org/georss/line -->
+
+    <owl:DatatypeProperty rdf:about="http://www.georss.org/georss/line">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>From the GeoRSS Simple vocabulary</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.georss.org/georss/point -->
+
+    <owl:DatatypeProperty rdf:about="http://www.georss.org/georss/point">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>From the GeoRSS Simple vocabulary</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.georss.org/georss/polygon -->
+
+    <owl:DatatypeProperty rdf:about="http://www.georss.org/georss/polygon">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>From the GeoRSS Simple vocabulary</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.georss.org/georss/radius -->
+
+    <owl:DatatypeProperty rdf:about="http://www.georss.org/georss/radius">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>From the GeoRSS Simple vocabulary</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/featurename -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/gml/featurename">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/featuretypetag -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/gml/featuretypetag">
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/lowerCorner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/gml/lowerCorner">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/pos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/gml/pos">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/posList -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/gml/posList">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/relationshiptag -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/gml/relationshiptag">
+        <rdfs:domain rdf:resource="http://www.opengis.net/gml/_Feature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.opengis.net/gml/upperCorner -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/gml/upperCorner">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.opengis.net/gml/Point"/>
+                    <rdf:Description rdf:about="http://www.opengis.net/gml/_Feature"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>From the W3C Geo vocabulary </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.opengis.net/gml/Point"/>
+                    <rdf:Description rdf:about="http://www.opengis.net/gml/_Feature"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>From the W3C Geo vocabulary </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://isi.edu/integration/karma/ontologies/model/current#geospatial/KMLCustomization -->
+
+    <owl:Class rdf:about="http://isi.edu/integration/karma/ontologies/model/current#geospatial/KMLCustomization"/>
+    
+
+
+    <!-- http://isi.edu/integration/karma/ontologies/model/current#geospatial/SpatialReferenceSystem -->
+
+    <owl:Class rdf:about="http://isi.edu/integration/karma/ontologies/model/current#geospatial/SpatialReferenceSystem"/>
+    
+
+
+    <!-- http://www.opengis.net/gml/Envelope -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/Envelope">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/LineString -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/LineString">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/_Geometry"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.opengis.net/gml/posList"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The gml:posList property is defined for all elements of LineString</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/LinearRing -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/LinearRing">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/_Geometry"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.opengis.net/gml/posList"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The gml:posList property is defined for all elements of LinearRing</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_006b5d50_e052_4bdd_9c16_f347da2aa771 -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_006b5d50_e052_4bdd_9c16_f347da2aa771">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.opengis.net/gml/OWLObjectProperty_667196f7_b72a_4d70_89c1_d02f06369824"/>
+                <owl:someValuesFrom rdf:resource="http://www.opengis.net/gml/OWLClass_c8601414_f22d_4adb_9178_8d0022a28fbb"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_3391f5ac_0074_444a_af09_3be67b7d1063"/>
+        <rdfs:label>Plant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_185328b3_f4bd_458c_be3d_e838379be211 -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_185328b3_f4bd_458c_be3d_e838379be211">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_67974d71_b1ce_4fa3_ad67_9c27656c64fd"/>
+        <rdfs:label>County</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_1e9c0807_1eef_4b4a_b699_c57dd165c742 -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_1e9c0807_1eef_4b4a_b699_c57dd165c742">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_ab551d56_be11_4e66_9c28_2123216eccf1"/>
+        <rdfs:label>Air</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_29c79ff0_7203_47c0_93ca_f5a55f63de20 -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_29c79ff0_7203_47c0_93ca_f5a55f63de20">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.opengis.net/gml/OWLObjectProperty_14cfb6eb_1931_4ae1_b915_1e00ecd5cbe9"/>
+                <owl:someValuesFrom rdf:resource="http://www.opengis.net/gml/_Geometry"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_ab551d56_be11_4e66_9c28_2123216eccf1"/>
+        <rdfs:label>Object</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_2ce4c3ad_9a64_4980_9c98_9a1355de6f14 -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_2ce4c3ad_9a64_4980_9c98_9a1355de6f14">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_ab551d56_be11_4e66_9c28_2123216eccf1"/>
+        <rdfs:label>Land</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_3391f5ac_0074_444a_af09_3be67b7d1063 -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_3391f5ac_0074_444a_af09_3be67b7d1063">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_925a03b8_8c88_4036_8ec1_e182c881577f"/>
+        <rdfs:label>LivingThings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_3f7dcc03_2e6d_4310_8c31_4e9fd0f5391a -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_3f7dcc03_2e6d_4310_8c31_4e9fd0f5391a">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_ab551d56_be11_4e66_9c28_2123216eccf1"/>
+        <rdfs:label>Water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_5dbcda87_1860_43e4_bd84_116419020123 -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_5dbcda87_1860_43e4_bd84_116419020123">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_2ce4c3ad_9a64_4980_9c98_9a1355de6f14"/>
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_67974d71_b1ce_4fa3_ad67_9c27656c64fd -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_67974d71_b1ce_4fa3_ad67_9c27656c64fd">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_c17bac10_abbd_4f96_a24c_1a2c6f63b47b"/>
+        <rdfs:label>State</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_925a03b8_8c88_4036_8ec1_e182c881577f -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_925a03b8_8c88_4036_8ec1_e182c881577f">
+        <rdfs:label>Nature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_9b8c6b2d_238a_4dd4_9e7f_26100957e6bb -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_9b8c6b2d_238a_4dd4_9e7f_26100957e6bb">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_925a03b8_8c88_4036_8ec1_e182c881577f"/>
+        <rdfs:label>Ecology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_ab551d56_be11_4e66_9c28_2123216eccf1 -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_ab551d56_be11_4e66_9c28_2123216eccf1">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_925a03b8_8c88_4036_8ec1_e182c881577f"/>
+        <rdfs:label>NonLivingThings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_c17bac10_abbd_4f96_a24c_1a2c6f63b47b -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_c17bac10_abbd_4f96_a24c_1a2c6f63b47b">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_5dbcda87_1860_43e4_bd84_116419020123"/>
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_c8601414_f22d_4adb_9178_8d0022a28fbb -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_c8601414_f22d_4adb_9178_8d0022a28fbb">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.opengis.net/gml/OWLObjectProperty_6f8b655f_9ee1_4b0f_9dc9_d5a40b658101"/>
+                <owl:someValuesFrom rdf:resource="http://www.opengis.net/gml/OWLClass_006b5d50_e052_4bdd_9c16_f347da2aa771"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.opengis.net/gml/featurename"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_3391f5ac_0074_444a_af09_3be67b7d1063"/>
+        <rdfs:label>Animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/OWLClass_ea2835f3_e586_4fd8_b272_792fc40809b4 -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/OWLClass_ea2835f3_e586_4fd8_b272_792fc40809b4">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/OWLClass_ab551d56_be11_4e66_9c28_2123216eccf1"/>
+        <rdfs:label>Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/Point -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/Point">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/_Geometry"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.opengis.net/gml/pos"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The gml:pos property is defined for all elements of Point</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/Polygon -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/Polygon">
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/gml/_Geometry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/gml/_Feature -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/_Feature"/>
+    
+
+
+    <!-- http://www.opengis.net/gml/_Geometry -->
+
+    <owl:Class rdf:about="http://www.opengis.net/gml/_Geometry"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
